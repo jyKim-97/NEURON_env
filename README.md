@@ -1,2 +1,6 @@
 # NEURON_env
-NEURON 7.7 docker file
+NEURON  
+* version 7.7
+* architectur x86_64
+PYTHON (with optimized version)
+* version 3.6.10
