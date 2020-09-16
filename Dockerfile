@@ -26,7 +26,7 @@ RUN echo "python env"
 WORKDIR /usr/src
 RUN  wget https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tgz \
     && tar xzf Python-3.6.10.tgz \
-    && rm Python-3.6.10.tgz
+    && rm Python-3.6.10.tgz \
     && cd Python-3.6.10 \
     && ./configure --enable-optimizations
 RUN make \
